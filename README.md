@@ -2,7 +2,7 @@
 
 A program which resizes hyprland windows to 16:9 when alone on a widescreen monitor.
 
-## The inner workings
+## The (proposed) inner workings
 
 - When spawning a new window check if the workspace is empty
 - If the workspace is empty, set the window to pseudotiled and set the size to _roughly_ 16:9
